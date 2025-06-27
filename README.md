@@ -3,10 +3,10 @@
 Modelo NLP com exemplo de deploy
 
 ## 1. Gera a imagem no Docker
-docker build -t text-classifier .
+docker build -t nlp .
 
 ## 2. Executa o contêiner
-docker run -p 8000:8000 text-classifier
+docker run -p 8000:8000 nlp
 
 ## 3. Saída do modelo em deploy
 
